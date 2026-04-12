@@ -1,0 +1,28 @@
+table{
+    border-spacing: 2px; /* Define o espaçamento entre as células da tabela */
+    border: 1px solid black; /* Adiciona uma borda à tabela */
+    background-color: black
+};
+}
+tr{
+    bo rder: 1px solid black;
+   
+}
+th[colspan] {
+    background-color: rgb(243,213,124);
+    
+}
+th {
+    background-color: #97CBFA;
+    border: 1px solid black;
+}
+td {
+    background-color: #E8E8E8;
+    border: 1px solid black;
+}
+td[colspan] {
+    background-color: rgb(146, 145, 144);
+    border: 1px solid black;
+    font-size: 13px;
+    grid-template-columns: 400px;
+}
