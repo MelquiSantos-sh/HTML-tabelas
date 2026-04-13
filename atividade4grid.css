@@ -1,0 +1,24 @@
+
+.container{
+    display: grid;
+    border: 1px solid black;
+    font-size: 25px;
+    width: 300px;
+    
+}
+.verde{
+    background-color: green;
+    
+}
+.resultado{
+    align-items: center;
+    gap: 1rem;
+    justify-items: center;
+}
+a{
+    color: rgba(219, 212, 212, 0.671);
+}
+.azul{
+    background-color: blue;
+    color: white;
+}
