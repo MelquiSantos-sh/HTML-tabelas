@@ -1,22 +1,22 @@
 table{
-    border: 2px solid black;
-    border-spacing: 2px;
-    display: table;
+    border: 2px solid black; // Define a borda da tabela
+    border-spacing: 2px;//  Define o espaçamento entre as células da tabela
+    display: table;// Define o tipo de exibição como tabela
     
 }
 
 img{
-    width: 100px;
-    height:100px;
-    justify-items: initial;
+    width: 100px;// Define a largura da imagem
+    height:100px;// Define a altura da imagem
+    justify-items: initial;// Alinha os itens dentro da célula
 }
 th{
-    background-color: #6E6E6E;
-    color: white;
-    border-width: 1px solid black;
+    background-color: #6E6E6E; // Define a cor de fundo do cabeçalho da tabela
+    color: white; // Define a cor do texto do cabeçalho da tabela
+    border-width: 1px solid black;// Define a borda do cabeçalho da tabela
 
 }
 td{
-    border: 1px solid black;
-    text-align: center;
+    border: 1px solid black;// Define a borda das células da tabela
+    text-align: center;// Alinha o texto ao centro das células da tabela
 }

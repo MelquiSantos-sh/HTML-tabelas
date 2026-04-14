@@ -1,41 +1,41 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;// Define o modelo de caixa para incluir bordas e preenchimento no tamanho total do elemento
+    margin: 0;// Remove a margem padrão de todos os elementos
+    padding: 0;// Remove o preenchimento padrão de todos os elementos
 }
 
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
+    font-family: Arial, sans-serif;// Define a fonte do corpo do documento
+    padding: 20px;//    Adiciona um preenchimento ao redor do conteúdo do corpo
 }
 
 .container {
-    max-width: 420px;
-    border: 2px solid black;
-    padding: 8px;
+    max-width: 420px;// Define a largura máxima do contêiner
+    border: 2px solid black;// Define a borda da tabela
+    padding: 8px;// Adiciona um preenchimento ao redor do conteúdo do contêiner
 }
 
 .verde {
-    background-color: #5EF05E;
-    color: black;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-    padding: 8px;
-    margin-bottom: 6px;
+    background-color: #5EF05E;// Define a cor de fundo verde
+    color: black;// Define a cor do texto como preto
+    font-weight: bold;// Define o peso da fonte como negrito
+    font-size: 16px;        // Define o tamanho da fonte
+    text-align: center;     // Alinha o texto ao centro
+    padding: 8px;// Adiciona um preenchimento ao redor do conteúdo da célula
+    margin-bottom: 6px;// Adiciona uma margem inferior para separar as células
 }
 
 .casas {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4px;
-    margin-bottom: 8px;
-    border: 2px solid black;
-    padding: 5px;
+    display: grid;// Define o tipo de exibição como grid
+    grid-template-columns: repeat(2, 1fr);// Define a estrutura de colunas do grid para 2 colunas de largura igual
+    gap: 4px;// Define o espaçamento entre os itens do grid
+    margin-bottom: 8px;// Adiciona uma margem inferior para separar as células
+    border: 2px solid black;// Define a borda da tabela
+    padding: 5px;// Adiciona um preenchimento ao redor do conteúdo da célula
 }
 
 .casas img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
+    width: 100%;// Define a largura da imagem para ocupar toda a largura da célula
+    height: 160px;// Define a altura da imagem
+    object-fit: cover;// Define o comportamento da imagem para cobrir a área da célula sem distorção
 }
