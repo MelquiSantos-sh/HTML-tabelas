@@ -1,3 +1,10 @@
+.container{
+    display: grid;
+    border: 2px solid black;
+    font-size: 18px;
+    width: 400px;
+    
+}
 .resultado {
     display: grid;
     grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr 2fr;
